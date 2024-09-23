@@ -40,7 +40,7 @@ Target age: 16+.
 
   
 
-The player are faced with waves of zombies in this top-down zombie survival game, which spawn at random in response to their actions and surroundings. The aim is to survive for as long as possible, using weapons, environmental challenges, and strategically positioning to ward off masses of enemies. 
+The player is faced with waves of zombies in this top-down zombie survival game, which spawn at random in response to their actions and surroundings. The aim is to survive for as long as possible, using weapons, environmental challenges, and strategically positioning to ward off masses of enemies (zombies). 
 
  
 
@@ -62,7 +62,7 @@ The player are faced with waves of zombies in this top-down zombie survival game
 
 ### Primary Objective:   
 
-Survive as long as possible against waves of zombies, managing resources, positioning, and timing to fend off increasingly difficult enemies. 
+Survive as long as possible against waves of zombies, managing resources, positioning, and timing to fend off increasingly difficult enemies (zombies). 
 
    
 
