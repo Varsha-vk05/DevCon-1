@@ -64,6 +64,7 @@ The player is faced with waves of zombies in this top-down zombie survival game,
 
 Survive as long as possible against waves of zombies, managing resources, positioning, and timing to fend off increasingly difficult enemies (zombies). 
 
+![3x zombie Spawn](https://7daystodiemods.com/wp-content/uploads/2021/09/7-days-to-die-3x-zombie-spawn.jpg)
    
 
 --- 
@@ -92,10 +93,15 @@ The prototype will aim to answer the following question:
 
 - **Constant Wave Spawning:** Zombies spawn at a steady rate, giving players constant pressure. 
 
-- **Burst Wave Spawning:** Large groups of zombies spawn in short bursts after longer breaks, creating intense moments followed by quieter intervals. 
+![Contant Waves](https://github.com/Varsha-vk05/forpics/blob/main/Screenshot%202024-09-25%20130125.png?raw=true)
 
-- **Mixed Wave Spawning:** A combination of both constant and burst waves, keeping players on their toes. 
+- **Burst Wave Spawning:** Large groups of zombies spawn in short bursts after longer breaks, creating intense moments followed by quieter intervals.
+  
+![Burst Waves](https://github.com/Varsha-vk05/forpics/blob/main/Screenshot%202024-09-25%20131402.png?raw=true)
 
+- **Mixed Wave Spawning:** A combination of both constant and burst waves, keeping players on their toes.
+  
+![Mixed Waves](https://github.com/Varsha-vk05/forpics/blob/main/Screenshot%202024-09-25%20131812.png?raw=true)
   
 
 ### Adaptivity of Waves: 
