@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class Bullets : MonoBehaviour
 {
@@ -21,6 +23,15 @@ public class Bullets : MonoBehaviour
         if (collision.GetComponent<EnemyMovement>())
         {
             Destroy(collision.gameObject);
+            Destroy(gameObject);
+        }
+        else if (collision.GetComponent<EnemySpawner>())
+        {
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
+        }
+        else if (collision.GetComponent<TilemapCollider2D>())
+        {
             Destroy(gameObject);
         }
     }

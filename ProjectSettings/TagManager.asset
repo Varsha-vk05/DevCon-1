@@ -53,3 +53,6 @@ TagManager:
   - name: Enemy
     uniqueID: 2322131573
     locked: 0
+  - name: Tiles
+    uniqueID: 1377548405
+    locked: 0

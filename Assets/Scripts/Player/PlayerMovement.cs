@@ -7,15 +7,15 @@ public class PlayerMovement : MonoBehaviour
 
     //player speed
     [SerializeField]
-    private float _speed;
+    private float speed;
     //rotation speed of player
     [SerializeField]
-    private float _rotationSpeed;
+    private float rotationSpeed;
     //player variables
     private Rigidbody2D _rigidbody;
-    private Vector2 _movementInput;
-    private Vector2 _smoothedMovementInput;
-    private Vector2 _movementInputSmoothVelocity;
+    private Vector2 movementInput;
+    private Vector2 smoothedMovementInput;
+    private Vector2 movementInputSmoothVelocity;
     //setting rigidbody on start
     private void Awake()
     {
@@ -32,23 +32,23 @@ public class PlayerMovement : MonoBehaviour
     //Setting the players speed/velocity
     private void SetPlayerVelocity()
     {
-        _smoothedMovementInput = Vector2.SmoothDamp(
-                    _smoothedMovementInput,
-                    _movementInput,
-                    ref _movementInputSmoothVelocity,
+        smoothedMovementInput = Vector2.SmoothDamp(
+                    smoothedMovementInput,
+                    movementInput,
+                    ref movementInputSmoothVelocity,
                     0.1f);
 
-        _rigidbody.velocity = _smoothedMovementInput * _speed;
+        _rigidbody.velocity = smoothedMovementInput * speed;
     }
 
     //Player rotation based on where you move
     private void RotateInDirectionOfInput()
     {
         // if player input is not equal to zero, rotate player in direction 
-        if (_movementInput != Vector2.zero)
+        if (movementInput != Vector2.zero)
         {
-            Quaternion targetRotation = Quaternion.LookRotation(transform.forward, _smoothedMovementInput);
-            Quaternion rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, _rotationSpeed * Time.deltaTime);
+            Quaternion targetRotation = Quaternion.LookRotation(transform.forward, smoothedMovementInput);
+            Quaternion rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
 
             _rigidbody.MoveRotation(rotation);
         }
@@ -56,7 +56,7 @@ public class PlayerMovement : MonoBehaviour
     //player movement 
     private void OnMove(InputValue inputValue)
     {
-        _movementInput = inputValue.Get<Vector2>();
+        movementInput = inputValue.Get<Vector2>();
     }
 }
 
