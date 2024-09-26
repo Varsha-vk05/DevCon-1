@@ -199,3 +199,16 @@ The system adjusts difficulty based on:
   
 
 The main goals and mechanics of the top-down zombie game are described in this GDD. The main mechanic that will be looked at to figure out its effect on player engagement, challenge, and strategic thinking will be the AI wave spawning system. Our goal is to create a dynamic and exciting survival experience by adjusting the spawning system and balancing difficulty. 
+
+
+
+---
+
+
+### External Resources for Prototype
+
+- **Enemy Spawner**:  
+  [Spawner YouTube Video](https://www.youtube.com/watch?v=cecD66fZ_4c&list=PLx7AKmQhxJFajrXez-0GJgDlKELabQQHT&index=14)
+
+- **Enemy Tracking**:  
+  [Tracking YouTube Video](https://www.youtube.com/watch?v=cecD66fZ_4c&list=PLx7AKmQhxJFajrXez-0GJgDlKELabQQHT&index=14)
